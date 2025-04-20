@@ -205,24 +205,26 @@ The island and its capital, Palma, are overflowing with character, while its bea
 <h3>Contact Us</h3>
 <form autocomplete="on">
   <label for="fname">First Name</label>
-  <input type="text" id="fname" placeholder="Ener first name" required>
+  <input type="text" id="fname" name="fname" placeholder="Enter first name" required>
     <br>
   <label for="lname">Last Name</label>
-  <input type="text" id="lname" placeholder="Enter last name" required>
+  <input type="text" id="lname" name="lname" placeholder="Enter last name" required>
 
 <fieldset>
   <legend>Contact Method</legend>
     <label for="email-op">Email</label>  
-    <input type="radio" id="email">
+    <input type="radio" id="email-op" name="email-op">
   
     <label for="text-op">Text</label>  
-    <input type="radio" id="text">
+    <input type="radio" id="text" name="text-op">
 
     <label for="phone-op">Phone</label>
-    <input type="radio" id="phone">
+    <input type="radio" id="phone" name="phone-op">
   </fieldset>
 
-Email Address (Enter Email)
+<!-- Email Address (Enter Email) -->
+ <label for="email">Email Address</label>
+ <input type="email" id="email" name="email" placeholder="Enter Email" required>
 Phone Number (Enter telephone number)
 
 
