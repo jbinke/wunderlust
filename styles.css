@@ -133,3 +133,7 @@ button{
 form{
     font-family: "Montserrat";
 }
+header{
+    background-image: linear-gradient(var(--blue), var(--white));
+    display: grid;
+}
