@@ -400,11 +400,33 @@ header input ~ ul {
     margin: 22px;
     grid-gap: 20px;
     justify-items: center;
+    padding: 25px;
 }
 
 #icons2 h4{
     font-size: 25px;
     font-weight: bold;
+}
+
+#icons2 p{
+    font-size: 20px;
+}
+
+#size{
+    display: grid;
+    justify-items: center;
+}
+#ele{
+    display: grid;
+    justify-items: center;
+}
+#loca{
+    display: grid;
+    justify-items: center;
+}
+#pop{
+    display: grid;
+    justify-items: center;
 }
 
 /* -------------- */
