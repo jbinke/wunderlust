@@ -101,6 +101,7 @@ body{
 
 h1{
     font-family: "Molle";
+    font-size: 3rem;
 }
 h2{
     font-family: "Molle";
@@ -135,9 +136,11 @@ header{
     background-image: linear-gradient(var(--blue), var(--white));
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "logo menu" "title title" "text text";
+    grid-gap: 10px;
 }
 #logo{
     grid-area: logo;
+    margin: auto;
 }
 header p{
     grid-area: text;
