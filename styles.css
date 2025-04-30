@@ -82,6 +82,9 @@ table {
             font-style: normal;
           }          
 }
+    
+
+    
 
 
 #skip{
@@ -147,7 +150,7 @@ header{
 }
 header p{
     grid-area: text;
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding: 10px 0px 10px 15px;
     line-height: 20px;
 }
@@ -194,18 +197,32 @@ header input ~ ul {
     margin: -1px;
 }
 
+#menu-toggle{
+    width: 8.7em;
+}
+
 #intro h2{
     font-size: 2.3rem;
     padding: 10px 15px 20px 15px;
 }
-
-
-
-
+#intro p{
+    font-size: 1.3rem;
+    line-height: 35px;
+    padding-left: 15px;
+}
+#img-grid{
+    display: grid;
+    grid-gap: 15px;
+}
+#plan{
+    display: grid;
+    background-color: #F6D64A;
+}
+#plane{
+    background-color: #499BD2;
+    border: 4px #FFFFFF;
+    border-radius: 5px;
+    width: fit-content;
+}
 
 /* -------------- */
-@media only screen and (min-width: 1280px){
-    body{
-        min-width: 1280px;
-    }
-}
