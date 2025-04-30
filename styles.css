@@ -398,6 +398,13 @@ header input ~ ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 22px;
+    grid-gap: 20px;
+    justify-items: center;
+}
+
+#icons2 h4{
+    font-size: 25px;
+    font-weight: bold;
 }
 
 /* -------------- */
