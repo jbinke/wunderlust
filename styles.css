@@ -82,9 +82,7 @@ table {
             font-style: normal;
           }          
 }
-* {
-    box-sizing: border-box;
-  }
+
 
 #skip{
     position: absolute;
@@ -95,7 +93,6 @@ table {
     overflow: hidden;
   }
 body{
-    min-width: 350px;
     display: grid;
     grid-template-columns: auto;
 }
@@ -128,6 +125,10 @@ nav{
     display: grid;
     justify-content: end;
 }
+nav input{
+    display: none;
+}
+
 button{
     font-family: "Montserrat";
 }
@@ -143,15 +144,16 @@ header{
 }
 #logo{
     grid-area: logo;
-    margin: auto;
 }
 header p{
     grid-area: text;
     font-size: 1rem;
-    padding: 1.5em;
+    padding: 10px 0px 10px 15px;
+    line-height: 20px;
 }
 header h1{
     grid-area: title;
+    margin-left: 20px;
 }
 
 #main-content{
@@ -194,6 +196,7 @@ header input ~ ul {
 
 #intro h2{
     font-size: 2.3rem;
+    padding: 10px 15px 20px 15px;
 }
 
 
@@ -201,3 +204,8 @@ header input ~ ul {
 
 
 /* -------------- */
+@media only screen and (min-width: 1280px){
+    body{
+        min-width: 1280px;
+    }
+}
