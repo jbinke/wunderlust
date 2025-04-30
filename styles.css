@@ -304,6 +304,16 @@ header input ~ ul {
     font-weight: 600;
 }
 
+#amanda p{
+    font-size: 25px;
+}
+
+#amanda q{
+    font-size: 20px;
+    padding: 0px 50px;
+    font-style: italic;
+}
+
 #max{
     display: grid;
     justify-items: center;
@@ -312,6 +322,15 @@ header input ~ ul {
 #max h4{
     font-size: 35px;
     font-weight: 600;
+}
+#max p{
+    font-size: 25px;
+}
+
+#max q{
+    font-size: 20px;
+    padding: 0px 50px;
+    font-style: italic;
 }
 
 #ines{
@@ -323,6 +342,15 @@ header input ~ ul {
     font-size: 35px;
     font-weight: 600;
 }
+#ines p{
+    font-size: 25px;
+}
+
+#ines q{
+    font-size: 20px;
+    padding: 0px 50px;
+    font-style: italic;
+}
 
 #carmen{
     display: grid;
@@ -333,6 +361,43 @@ header input ~ ul {
 #carmen h4{
     font-size: 35px;
     font-weight: 600;
+}
+
+#carmen p{
+    font-size: 25px;
+}
+
+#carmen q{
+    font-size: 20px;
+    padding: 0px 50px;
+    font-style: italic;
+}
+
+#ines p{
+    font-size: 25px;
+}
+
+#ines q{
+    font-size: 20px;
+    padding: 0px 50px;
+    font-style: italic;
+}
+
+#about{
+    background-color: #499BD2;
+}
+
+#about h3{
+    font-size: 35px;
+    padding: 12px;
+    width: 300px;
+    line-height: 40px;
+}
+
+#icons2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 22px;
 }
 
 /* -------------- */
