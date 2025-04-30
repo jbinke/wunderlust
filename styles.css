@@ -94,6 +94,10 @@ table {
     height: 1px;
     overflow: hidden;
   }
+body{
+    min-width: 350px;
+    display: grid;
+}
 
 h1{
     font-family: "Molle";
@@ -118,6 +122,7 @@ small{
 }
 nav{
     font-family: "Montserrat";
+    grid-area: menu;
 }
 button{
     font-family: "Montserrat";
@@ -126,11 +131,26 @@ form{
     font-family: "Montserrat";
 }
 header{
-    background-image: linear-gradient(var(--blue), var(--white));
     display: grid;
+    background-image: linear-gradient(var(--blue), var(--white));
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "logo menu" "title title" "text text";
 }
+#logo{
+    grid-area: logo;
+}
+header p{
+    grid-area: text;
+}
+header h1{
+    grid-area: title;
+}
+
+
+
 #main-content{
     display: grid;
+}
+.sr-only{
+    overflow: hidden;
 }
