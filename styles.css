@@ -178,6 +178,7 @@ label {
     display: inline-block;
     position: relative;
     cursor: pointer;
+    text-transform: uppercase;
 }
 header input ~ ul {
     overflow: hidden;
@@ -446,12 +447,11 @@ span.form-required{
 form{
     display: grid;
     grid-gap: 35px;
-    padding: 10px 20px;
+    padding: 10px 30px;
 }
 #names{
     display: grid;
     grid-gap: 10px;
-    text-transform: uppercase;
 }
 form input{
     border: 1.5px solid #9B26B0;
@@ -460,6 +460,7 @@ form input{
 
 #nums{
     display: grid;
+    grid-gap: 15px;
 }
 
 fieldset{
@@ -470,6 +471,11 @@ fieldset{
 
 fieldset legend{
     text-transform: uppercase;
+}
+
+#selects{
+    display: grid;
+    grid-gap: 15px;
 }
 
 /* -------------- */
