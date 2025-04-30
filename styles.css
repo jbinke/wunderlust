@@ -429,4 +429,20 @@ header input ~ ul {
     justify-items: center;
 }
 
+#contact{
+    display: grid;
+}
+
+#contact h3{
+    font-size: 32px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+#names{
+    display: grid;
+}
+
 /* -------------- */
