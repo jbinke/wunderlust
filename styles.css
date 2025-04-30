@@ -97,6 +97,7 @@ table {
 body{
     min-width: 350px;
     display: grid;
+    grid-template-columns: auto;
 }
 
 h1{
@@ -124,6 +125,8 @@ small{
 nav{
     font-family: "Montserrat";
     grid-area: menu;
+    display: grid;
+    justify-content: end;
 }
 button{
     font-family: "Montserrat";
@@ -144,16 +147,57 @@ header{
 }
 header p{
     grid-area: text;
+    font-size: 1rem;
+    padding: 1.5em;
 }
 header h1{
     grid-area: title;
 }
 
-
-
 #main-content{
     display: grid;
 }
-.sr-only{
-    overflow: hidden;
+
+header label {
+    position: absolute;
+    top: 36px;
+    padding: 18px 47px;
+    background-color: var(--yellow);
+    text-align: center;
+
 }
+header input {
+    display: none;
+}
+label {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+header input ~ ul {
+    overflow: hidden;
+    max-height: 0px;
+    text-align: center;
+    margin-top: 30px;
+}
+.sr-only {
+    width: 1px;
+    white-space: nowrap;
+    height: 1px;
+    position: absolute;
+    overflow: hidden;
+    border: 0px;
+    padding: 0px;
+    clip: rect(0, 0, 0, 0);
+    margin: -1px;
+}
+
+#intro h2{
+    font-size: 2.3rem;
+}
+
+
+
+
+
+/* -------------- */
