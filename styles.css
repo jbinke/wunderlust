@@ -603,5 +603,32 @@ footer a{
     #about{
         display: grid;
     }
+    #icons2{
+        display: flex;
+    }
 
+}
+@media screen and (min-width: 1024px) {
+    body{
+        min-width: 1024px;
+    }
+    header{
+        display: grid;
+    }
+    nav{
+        display: grid;
+        position: absolute;
+        margin-left: 280px;
+    }
+    header input ~ ul{
+        display: flex;
+        justify-content: end;
+        position: relative;
+        top: -30px;
+        gap: 15px;
+        left: -32px;
+    }
+    #intro{
+        display: grid
+    }
 }
