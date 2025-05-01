@@ -631,4 +631,16 @@ footer a{
     #intro{
         display: grid
     }
+    #img-grid{
+        display: grid;
+    }
+    #plan{
+        display: flex;
+    }
+    #icons{
+        display: flex;
+    }
+    #people{
+        display: flex;
+    }
 }
