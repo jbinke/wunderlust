@@ -520,6 +520,7 @@ footer a{
         "logo title"
         "text text"
         "menu menu";
+        margin-bottom: 60px;
     }
     header label {
         background-color: var(--yellow);
@@ -527,6 +528,7 @@ footer a{
         position: relative;
         padding: auto;
         top: 0px;
+        display: none;
     }
     label {
         display: inline-block;
@@ -543,8 +545,8 @@ footer a{
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-        grid-area: "menu";
         flex-wrap: nowrap;
+        width: 800px;
     }
     nav{
         font-family: "Montserrat";
@@ -554,5 +556,16 @@ footer a{
     }
     header input {
         overflow: hidden;
+    }
+
+    header input ~ ul > li a{
+        display: flex;
+        background-color: #F6D64A;
+        text-decoration: none;
+        padding: 10px;
+    }
+    header h1{
+        display: grid;
+        align-items: center;
     }
 }
