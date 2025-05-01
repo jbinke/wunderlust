@@ -643,4 +643,11 @@ footer a{
     #people{
         display: flex;
     }
+    #about{
+        display: flex;
+    }
+    form{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
 }
