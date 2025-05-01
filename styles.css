@@ -574,7 +574,8 @@ footer a{
     }
     #img-grid{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "wave beach" "cove cove";
+        justify-items: center;
     }
     #cove{
         grid-area: cove;
@@ -584,6 +585,23 @@ footer a{
     }
     #wave{
         grid-area: wave;
+    }
+    #plan{
+        display: grid;
+    }
+    #icons{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    #testimonials{
+        display: grid;
+    }
+    #people{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    #about{
+        display: grid;
     }
 
 }
