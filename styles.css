@@ -506,3 +506,53 @@ footer a{
 }
 
 /* -------------- */
+
+@media screen and (min-width: 768px) {
+    body{
+        min-width: 768px;
+        display: grid;
+    }
+    header{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        grid-template-areas:
+        "logo title"
+        "text text"
+        "menu menu";
+    }
+    header label {
+        background-color: var(--yellow);
+        text-align: center;
+        position: relative;
+        padding: auto;
+        top: 0px;
+    }
+    label {
+        display: inline-block;
+        position: relative;
+        cursor: pointer;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+    header input ~ ul {
+        overflow: visible;
+        max-height: 0px;
+        text-align: center;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        grid-area: "menu";
+        flex-wrap: nowrap;
+    }
+    nav{
+        font-family: "Montserrat";
+        grid-area: menu;
+        display: grid;
+        justify-content: start;
+    }
+    header input {
+        overflow: hidden;
+    }
+}
