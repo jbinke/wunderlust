@@ -526,7 +526,6 @@ footer a{
         background-color: var(--yellow);
         text-align: center;
         position: relative;
-        padding: auto;
         top: 0px;
         display: none;
     }
