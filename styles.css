@@ -179,6 +179,7 @@ label {
     position: relative;
     cursor: pointer;
     text-transform: uppercase;
+    font-weight: 700;
 }
 header input ~ ul {
     overflow: hidden;
@@ -476,6 +477,32 @@ fieldset legend{
 #selects{
     display: grid;
     grid-gap: 15px;
+}
+
+.custom-select{
+    border: 1.5px solid var(--purple);
+}
+
+#mySubmit{
+    background-color: #9B26B0;
+    color: #FFFFFF;
+    font-weight: 600;
+    height: 55px;
+    width: auto;
+}
+
+footer{
+    display: grid;
+    background-color: var(--ltgry);
+    justify-items: center;
+    padding: 20px 40px;
+    color: #000000;
+    grid-gap: 12px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #000000;
 }
 
 /* -------------- */
